@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>$.template()</title>
+  <script src="jquery-1.11.3.min.js"></script>
+  <script src="jquery.template.js"></script>
+</head>
+<body>
+
+
+<div id="wrap"></div>
+
+<script type="text/html" id="tpl">
+    <% list.forEach(function(v){ %>
+        <p><b><%-v.Name %></b> - <%-v.ReleaseYear%></p>
+    <% }) %>
+</script>
+
+
+<script type="text/javascript">
+var movies = [
+  { Name: "The Red Violin", ReleaseYear: 1998 },
+  { Name: "Eyes Wide Shut", ReleaseYear: 1875 },
+  { Name: "The Inheritance", ReleaseYear: "1976" }
+];
+
+var str = $.template($('#tpl').html())({list : movies});
+$('#wrap').html(str);
+</script>
+
+
+
+</body>
+</html>
