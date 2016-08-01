@@ -8,5 +8,5 @@
 <script src="widget.js"></script>
 ```
 
-## 照考网站
+## 参考网站
 https://github.com/surbhioberoi/github-widget
