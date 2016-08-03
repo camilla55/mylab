@@ -12,3 +12,6 @@ jsonp小方法的实际，一来可以了解原理，二来也自己实现了一
 
 ## github-widget
 这是一个github的小挂件，[点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget)
+
+## github-widget-ES6
+这是一个github的小挂件使用ES6开发，[点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-es6)
