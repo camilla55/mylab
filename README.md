@@ -11,7 +11,7 @@ jsonp小方法的实际，一来可以了解原理，二来也自己实现了一
 一个使用hash值来实现的路由。传参方式为type=1;name=kyo;[点击查看](https://github.com/kyo4311/mylab/tree/master/javascript-router)
 
 ## github-widget
-这是一个github的小挂件，[点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget)
-
-## github-widget-ES6
-这是一个github的小挂件使用ES6开发，[点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-es6)
+这是一个github的小挂件，
+- [ES3版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget) 
+- [ES6版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-es6)
+- [React版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-react)
