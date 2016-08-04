@@ -18,6 +18,3 @@ export default class GithubWedgit extends React.Component {
         )
     }
 }
-
-
-// export default CSSModules(GithubWedgit, styles, {allowMultiple: true})
