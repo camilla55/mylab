@@ -1,12 +1,16 @@
 # github-widget
-这是一个github小挂件，看到别人写的不错，由于自己也造了一个轮子。
+这是一个github小挂件，引入了doT.js模板，还有Q.js可以让两个请求同步。
 
 
 ## 使用方法
 ```html
 <div class="github-widget" data-username="kyo4311"></div>
-<script src="widget.js"></script>
+
+<div class="github-widget" data-username="olado"></div>
+
+<div class="github-widget" data-username="kriskowal"></div>
 ```
 
-## 参考网站
-https://github.com/surbhioberoi/github-widget
+## 相关链接
+[The fastest + concise javascript template engine](http://olado.github.io/doT/)
+[A promise library for JavaScript](https://github.com/kriskowal/q)
