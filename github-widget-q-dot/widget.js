@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
         tpl += '    {{~it.rep.list :v:index}}';
         tpl += '    <tr>';
         tpl += '    <td width="50%"><a href="{{=v.html_url}}">{{=v.name}}</a></div></td>';
-        tpl += '    <td width="25%">{{=v.stargazers_count}}</td>';
+        tpl += '    <td width="25%">{{=v.language}}</td>';
         tpl += '    <td width="25%">★{{=v.stargazers_count}}</td>';
         tpl += '    </tr>';
         tpl += '    {{~}}';

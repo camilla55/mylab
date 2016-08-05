@@ -1,5 +1,5 @@
 let topTemplateString = function(data) {
-      return `
+  return `
       <div class="gh-top">
            <div class="gh-top-photo"><img src="${data.avatar_url}" width="90" alt=""></div>
            <div class="gh-top-text">
@@ -15,17 +15,17 @@ let topTemplateString = function(data) {
 };
 
 let itemTemplateString = function(data) {
-      return `
+  return `
       <tr>
       <td width="50%"><a href="${data.html_url}">${data.name}</a></div></td>
-      <td width="25%">JavaScript</td>
+      <td width="25%">${data.language}</td>
       <td width="25%">★${data.stargazers_count}</td>
       </tr>`;
 
 };
 
 let footTemplateString = function(data) {
-      return `
+  return `
       <a class="gh-link" target="new" href="https://github.com/' + username + '">Follow</a>
       <span>Last active: ${data.latestDate}</span>`;
 };
@@ -53,8 +53,8 @@ let cssString = `
       .gh-tb td{padding: 10px}`;
 
 export {
-      topTemplateString,
-      itemTemplateString,
-      footTemplateString,
-      cssString
+  topTemplateString,
+  itemTemplateString,
+  footTemplateString,
+  cssString
 };

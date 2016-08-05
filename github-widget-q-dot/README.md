@@ -63,7 +63,7 @@ tpl += ' </table>';
 
 
 ## 相关链接
-[The fastest + concise javascript template engine](http://olado.github.io/doT/)
-[A promise library for JavaScript](https://github.com/kriskowal/q)
+- [The fastest + concise javascript template engine](http://olado.github.io/doT/)
+- [A promise library for JavaScript](https://github.com/kriskowal/q)
 
 
