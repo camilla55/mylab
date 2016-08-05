@@ -74,7 +74,7 @@ exports.widget = function(arr, callback) {
                     resolve(data);
                 });
             }).on('error', (e) => {
-                console.error(e);
+                resolve(e);
             }).end();
         });
     }

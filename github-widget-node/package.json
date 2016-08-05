@@ -5,7 +5,7 @@
     "author": "guosheng",
     "keywords": ["github-widget-node", "expres", "ejs"],
     "scripts": {
-
+        "start": "node index"
     },
 
     "devDependencies": {
