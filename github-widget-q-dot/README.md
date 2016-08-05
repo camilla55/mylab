@@ -1,6 +1,7 @@
 # github-widget
 这是一个github小挂件，引入了doT.js模板，还有Q.js可以让两个请求同步。
 
+![Github Widget Image](https://raw.githubusercontent.com/kyo4311/mylab/gh-pages/images/widget/github-widget-q-dot.jpg)
 
 ## 使用方法
 ```html
