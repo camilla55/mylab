@@ -1,0 +1,6 @@
+{
+  "name": "Mylab",
+  "tagline": "我的实验室。",
+  "body": "# mylab\r\n我的实验室小项目汇总。\r\n\r\n## javascript 模板引荐\r\n由于jQuery里面没有模板引荐，于是把underscorejs里面的_.template挖了出来。[点击查看](https://github.com/kyo4311/mylab/tree/master/jquery.template)\r\n\r\n## jsonp\r\njsonp小方法的实际，一来可以了解原理，二来也自己实现了一下代码。[点击查看](https://github.com/kyo4311/mylab/tree/master/javascript-jsonp)\r\n\r\n## javascript 路由\r\n一个使用hash值来实现的路由。传参方式为type=1;name=kyo;[点击查看](https://github.com/kyo4311/mylab/tree/master/javascript-router)\r\n\r\n## github-widget\r\n这是一个github的小挂件，\r\n- [ES3版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget) \r\n- [jQuery版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-jquery) \r\n- [ES6版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-es6)\r\n- [React版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-react)\r\n- [Q.js+dot.js版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-q-dot)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
