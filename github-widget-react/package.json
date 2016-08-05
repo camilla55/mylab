@@ -1,5 +1,5 @@
 {
-    "name": "github-widget-es6",
+    "name": "github-widget-react",
     "version": "1.0.0",
     "devDependencies": {
         "webpack": "^1.13.1",

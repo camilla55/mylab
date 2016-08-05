@@ -47,11 +47,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    function template(template, data) {
-        return template.replace(/#\{([\s\S]+?)\}/g, function(a, b) {
-            return data[b];
-        });
-    }
 
     function resource(url) {
         var deferred = Q.defer();
