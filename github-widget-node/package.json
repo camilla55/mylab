@@ -1,0 +1,12 @@
+{
+    "name": "github-widget-node",
+    "version": "1.0.0",
+    "scripts": {
+
+    },
+
+    "devDependencies": {
+        "express": "~4.13.1",
+        "q": "~1.4.1"
+    }
+}

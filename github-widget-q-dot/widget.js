@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function addClass() {
         var str = '';
         str += '@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);';
-        str += '.github-widget{border:1px solid #DDD;color:#333;max-width:350px; padding: 10px; color:#333; font-family:Noto Sans,sans-serif}';
+        str += '.github-widget{border:1px solid #DDD;color:#333;max-width:350px; padding: 10px; font-family:Noto Sans,sans-serif}';
         str += '.github-widget a {color:#4078C0;text-decoration:none}';
         str += '.gh-top{height:100px;padding:10px}';
         str += '.gh-top img{border:1px solid #eee;border-radius:50%}';
