@@ -41,7 +41,7 @@
             <div class="gh-top">
                 <div class="gh-top-photo"><img src="<%=item.user.avatar_url%>" width="90" alt=""></div>
                 <div class="gh-top-text">
-                    <div class="gh-name"><%=item.user.name%></div><div class="gh-location"><%=item.user.location%></div>
+                    <div class="gh-name"><%=item.user.name || item.user.login%></div><div class="gh-location"><%=item.user.location || item.user.type%></div>
                 </div>
             </div>
 
@@ -73,7 +73,7 @@
             </table>
 
             <div class="gh-foot">
-                <a class="gh-link" target="new" href="https://github.com/' + username + '">Follow</a>
+                <a class="gh-link" target="new" href="<%=item.user.html_url%>">Follow</a>
                 <span>Last active: <%=item.rep.latestDate%></span>
             </div>
         </div>

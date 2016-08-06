@@ -83,6 +83,15 @@ Q.all(arr)
     });
 ```
 
+
+# 查看更多版本
+- [ES3版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget) 
+- [jQuery版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-jquery) 
+- [ES6版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-es6)
+- [React版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-react)
+- [Q.js+dot.js版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-q-dot)
+- [Node版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-node)
+
 # 相关链接
 - [Express](https://github.com/expressjs/express)
 - [ejs](https://github.com/expressjs/express)
