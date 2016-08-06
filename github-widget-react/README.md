@@ -15,10 +15,16 @@ render(
 ```
 
 
-# 查看更多版本
+# 其他实现方案
 - [ES3版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget) 
 - [jQuery版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-jquery) 
+- [Q.js+dot.js版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-q-dot)
 - [ES6版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-es6)
 - [React版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-react)
-- [Q.js+dot.js版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-q-dot)
+- [Vue版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-vue)
 - [Node版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-node)
+
+# 参考链接
+- [react](https://github.com/facebook/react)
+- [React Tutorial](https://facebook.github.io/react/docs/tutorial.html)
+- [JSX in Depth](https://facebook.github.io/react/docs/jsx-in-depth.html)

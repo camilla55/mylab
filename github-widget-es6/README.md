@@ -8,10 +8,17 @@
 <script src="widget.js"></script>
 ```
 
-# 查看更多版本
+# 其他实现方案
 - [ES3版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget) 
 - [jQuery版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-jquery) 
+- [Q.js+dot.js版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-q-dot)
 - [ES6版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-es6)
 - [React版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-react)
-- [Q.js+dot.js版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-q-dot)
+- [Vue版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-vue)
 - [Node版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-node)
+
+# 相关资料
+
+- [ECMAScript 6入门](http://es6.ruanyifeng.com/)
+- [babel](https://github.com/babel/babel)
+- [webpack](https://github.com/webpack/webpack)

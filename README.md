@@ -14,9 +14,11 @@ jsonp小方法的实际，一来可以了解原理，二来也自己实现了一
 这是一个github的小挂件。
 ![Github Widget Image](https://raw.githubusercontent.com/kyo4311/mylab/gh-pages/images/widget/github-widget-q-dot.jpg)
 
+
 - [ES3版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget) 
 - [jQuery版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-jquery) 
 - [ES6版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-es6)
 - [React版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-react)
 - [Q.js+dot.js版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-q-dot)
 - [Node版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-node)
+- [VUE版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-vue)
