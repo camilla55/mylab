@@ -10,15 +10,5 @@ jsonp小方法的实际，一来可以了解原理，二来也自己实现了一
 ## javascript 路由
 一个使用hash值来实现的路由。传参方式为type=1;name=kyo;[点击查看](https://github.com/kyo4311/mylab/tree/master/javascript-router)
 
-## github-widget
-这是一个github的小挂件。
-![Github Widget Image](https://raw.githubusercontent.com/kyo4311/mylab/gh-pages/images/widget/github-widget-q-dot.jpg)
-
-
-- [ES3版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget) 
-- [jQuery版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-jquery) 
-- [ES6版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-es6)
-- [React版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-react)
-- [Q.js+dot.js版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-q-dot)
-- [Node版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-node)
-- [VUE版本 - 点击查看](https://github.com/kyo4311/mylab/tree/master/github-widget-vue)
+## EventEmitter
+看到群里讨论的火热，大神写的代码看不懂，只好自己写一个。[点击查看](https://github.com/kyo4311/mylab/tree/master/event-emitter)

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+</head>
+<body>
+<script src="emit.js"></script>
+<script>
+var events = new EventEmitter();
+
+//测试on
+events.on('change', function(){
+    console.log('change on');
+});
+events.emit('change');
+
+//测试两个on，一个emit
+events.on('two', function(){
+    console.log('测试两个on(之一)，一个emit');
+});
+events.on('two', function(){
+    console.log('测试两个on(之二)，一个emit');
+});
+events.emit('two');
+
+
+//测试一个on, 测试多个emit
+events.on('emits', function(){
+    console.log('测试一个on, 测试多个emit');
+});
+events.emit('emits');
+events.emit('emits');
+events.emit('emits');
+
+
+// 测试off
+
+function e1(){
+    console.log('e1');
+}
+function e2(){
+    console.log('e2');
+}
+events.on('testOff', e1);
+events.on('testOff', e2);
+events.off('testOff', e1);
+events.emit('testOff');
+
+
+
+//测试once
+function one(){
+    console.log('我只执行一次');
+}
+events.once('one', one);
+events.emit('one');
+events.emit('one');
+events.emit('one');
+
+events.once('one2', function(){
+    console.log('我只执行一次(2)');
+});
+events.emit('one2');
+events.emit('one2');
+events.emit('one2');
+
+
+
+//测试destory
+events.on('d', function(){
+    console.log('d1');
+});
+events.on('d', function(){
+    console.log('d2');
+});
+events.emit('d');
+events.destory('d');
+events.emit('d');
+</script>
+</body>
+</html>
