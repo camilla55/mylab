@@ -97,9 +97,29 @@
 
         function createScrollbar(param) {
             if (param.boxHeight < param.childrenHeight) {
-                var tpl = '<div class="uScrollbar"><div class="uScrollbarBox"><div class="uScrollbarThumb"></div><div class="uScrollbarTrack"></div></div></div>';
-                param.box.append(tpl);
-                param.track = param.box.find('.uScrollbarTrack');
+
+                param.track = $('<div class="uScrollbarTrack"></div>').css({
+                    position: 'relative',
+                    top: 0,
+                    width: '100%',
+                    height: '100%',
+                    borderRadius: '10px',
+                    background: '#bebebe',
+                    cursor: 'pointer'
+                });
+
+                param.bar = $('<div class="uScrollbar"></div>').css({
+                    position: 'absolute',
+                    top: '0',
+                    right: '0',
+                    width: '10px',
+                    height: '100%',
+                    borderRadius: '10px',
+                    background: '#eee'
+                });
+
+
+                param.bar.append(param.track).appendTo(param.box);
                 return 'next';
             }
         }
