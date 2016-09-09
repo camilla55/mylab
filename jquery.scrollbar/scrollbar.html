@@ -87,8 +87,25 @@
 
     <script type="text/javascript">
         $(function(){
-            $("#box1").scrollbar();
+
+            $(".box").scrollbar();
+
+
+            $(".add").click(function(){
+                $("#box .main").append('<div style="width:100px; height:100px; background:red;">123</div>');
+                $(".box").scrollbar();
+            });
+
+
+            $(".set").click(function(){
+                $("#box1").height(400);
+                $(".box").scrollbar();
+            });
         });
+
+
+
+        
     </script>
 </body>
 </html>
